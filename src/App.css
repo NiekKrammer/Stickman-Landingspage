@@ -1,0 +1,745 @@
+@font-face {
+  font-family: earthtracks;
+  src: url(../public/Asserts/fonts/Street-Fighter-Font/Act_Of_Rejection.ttf);
+}
+
+@font-face {
+  font-family: Nipok;
+  src: url(../public/Asserts/fonts/Street-Fighter-Font/Act_Of_Rejection.ttf);
+}
+
+@font-face {
+  font-family: WendyOne;
+  src: url(../public/Asserts/fonts/Street-Fighter-Font/Act_Of_Rejection.ttf);
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, #686565, #242222);
+}
+
+
+/* ------------------- Navbar ------------------- */
+
+
+.navbar {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 14px;
+}
+
+#stickman {
+  font-family: earthtracks;
+  color: #000000 !important;
+  -webkit-text-stroke: 1px #000000;  
+  font-size: 33px;
+  margin-left: 25px;
+  margin-top: 3px;
+}
+
+.navbar-nav {
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  }
+
+.navbar .nav-link {
+  font-family: earthtracks;
+  color: #000000 !important;
+  -webkit-text-stroke: 1px #000000;  
+  font-size: 27px;
+}
+
+.navbar .nav-link:hover {
+  transition: .1s ease;
+  transform: scale(1.1);
+}
+
+.navbar .nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: #070707;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    margin-bottom: 40px;
+  }
+  #stickman {
+    transform: translateY(5px);
+    font-size: 30px;
+    margin-right: 10px;
+  }
+  .navbar .nav-link {
+    margin-top: 5px;
+    text-align: left;
+    margin-left: -10px;
+  }
+  .navbar .nav-link:hover {
+   transform: translateY(-5px);
+  }
+}
+  
+@media (max-width: 800px) {
+.navbar-nav {
+  margin-bottom: 40px;
+}
+.navbar .nav-link {
+    font-size: 25px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar .nav-link {
+    font-size: 22px;
+  }
+}
+
+
+/* ------------------- HeroSection ------------------- */
+
+
+
+#hero-section {
+  margin-top: 70px;
+}
+
+.hero-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 320px;
+  border-radius: px;
+}
+
+#gif {
+  width: 600px;
+  border-radius: 5px;
+}
+
+.hero-section a {
+  font-family: earthtracks;
+  font-size: 20px;  
+  color: #070707;
+  padding: 15px;
+  margin: 10px;
+  border: 2px solid #070707;
+  border-radius: 30px;
+  font-weight: 900;
+
+}
+
+#socials {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+
+
+@media (max-width: 1090px) {
+  .hero-section h1 {
+    font-size: 45px;
+    top: 10%;
+  }
+
+  .hero-section h3 {
+    top: 12%;
+    font-size: 30px;
+    left: 36%;
+    transform: translateX(-20%);
+  }
+}
+
+@media (max-width: 990px) {
+  .hero-section img {
+    width: 450px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #hero-section {
+      margin-top: 30px;
+    }
+  .hero-section h1 {
+    font-size: 45px;
+    top: 10%;
+  }
+
+  .hero-section h3 {
+    top: 19%;
+    font-size: 20px;
+  }
+
+.hero-section a {
+  font-size: 20px;
+}
+}
+
+@media (max-width: 800px) {
+
+  .hero-section img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -65px
+  }
+
+  #gif {
+    margin-top: -10px;
+    margin-bottom: 30px;
+    width: 550px;
+    height: 270px;
+  }
+
+  .hero-section a {
+    font-size: 17px;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 610px) {
+
+  #gif {
+    width: 520px;
+    height: 250px;
+  }
+  .hero-section img {
+    margin-top: -50px;
+    width: 300px;
+    height: 230px;
+  }
+  }
+
+@media (max-width: 550px) {
+  #gif {
+    width: 450px;
+    height: 240px;
+  }
+  .hero-section img {
+    margin-top: -50px;
+    width: 300px;
+    height: 230px;
+  }
+  .hero-section a {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .hero-section img {
+    width: 300px;
+    height: 230px;
+  }
+  #gif {
+    width: 390px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 450px) {
+  .hero-section img {
+    width: 200px;
+    height: 150px;
+  }
+  .hero-section a {
+    font-size: 13px;
+    padding: 8px;
+  }
+  #socials {
+    margin-top: 1px;
+  }
+  #gif {
+    margin-bottom: 40px;
+    width: 300px;
+    height: 170px;
+  }
+}
+
+@media (max-width: 325px) {
+  .hero-section img {
+    width: 170px;
+    height: 130px;
+  }
+  #gif {
+    width: 250px;
+    height: 140px;
+  }
+
+  .hero-section a {
+    padding: 9px;
+    margin: 5px;
+  }                  
+}
+
+@media (max-width: 280px) {
+  .hero-section img {
+    width: 170px;
+    height: 130px;
+  }
+  #gif {
+    margin-top: -20px;
+    margin-bottom: 50px;
+    width: 240px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 260px) {
+  .hero-section img {
+    width: 160px;
+    height: 120px;
+  }
+  
+  #gif {
+    margin-top: -20px;
+    margin-bottom: 40px;
+    width: 210px;
+    height: 100px;
+  }
+}
+
+
+
+/* ------------------- Tokenomics ------------------- */
+
+
+.buy-sell {
+  margin-top: 80px;
+  background-image: url("/public/Asserts/Blood-toke.png");
+  padding: 50px 60px;
+}
+
+
+.buy-sell h1 {
+  color: #000000 !important;
+  -webkit-text-stroke: 1px #000000;    
+  font-family: Nipok;
+  font-size: 35px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.buy-sell .toke {
+  color: #000000 !important;
+  -webkit-text-stroke: 1px #000000; 
+  font-size: 35px;
+}
+
+.buy-sell .col-4 {
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.buy-sell .tokenomics {
+  text-align: center;
+  padding: 10px 20px;
+  height: 90px;
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.buy-sell .tokenomics h4 {
+  font-family: Nipok;
+  font-size: 30px;
+  margin-bottom: 0px;
+  color: #000000;
+  font-weight: 900;
+  margin: 5px;
+}
+
+.buy-sell .tokenomics h5 {
+  font-family: earthtracks;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+  border-top: 3px solid #000000;
+  border-radius: 30px;
+  padding-top: 20px;
+  font-weight: 900;
+}
+
+
+
+@media (max-width: 1050px) {
+
+  .buy-sell .tokenomics h1 {
+    font-size: 28px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 22px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 950px) {
+  .buy-sell .tokenomics-sell {
+    text-align: center;
+  }
+
+  .buy-sell .tokenomics-buy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+
+  .buy-sell .tokenomics-sell {
+    text-align: center;
+  }
+  .buy-sell .tokenomics-buy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .buy-sell {
+    margin-top: 60px;
+    padding: 20px 20px;
+  }
+  .buy-sell h1.toke {
+    font-size: 30px;
+  }
+  .buy-sell h1 {
+    font-size: 28px;
+  }
+  .buy-sell .tokenomics {
+    padding: 10px 10px;
+  }
+  .buy-sell .tokenomics h4 {
+    font-size: 26px;
+    padding-top: 4px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .buy-sell .toke {
+    margin-bottom: 50px;
+  } 
+  .buy-sell h1 {
+    margin-top: -50px;
+  }
+}
+
+@media (max-width: 600px) {
+  .buy-sell .toke {
+    font-size: 26px;
+  }
+  .buy-sell h1 {
+    font-size: 22px;
+  }
+  .buy-sell .tokenomics h5 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 530px) {
+
+  .buy-sell .tokenomics h5 {
+    border-radius: 20px;
+  }
+  .buy-sell h1 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .buy-sell h1.toke {
+    font-size: 27px;
+  }
+  .buy-sell {
+    margin-top: 20px;
+  }
+  .buy-sell .tokenomics h5 {
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 370px) {
+  
+  .buy-sell .tokenomics h5 {
+    border-radius: 10px;
+    font-size: 15px;
+  }
+}
+
+
+
+/* ------------------- About ------------------- */
+
+#about {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.about h1 {
+  font-family: Nipok;
+  margin-top: 65x;
+  text-align: center;
+  font-size: 35px;
+  color: #000000 !important;
+  -webkit-text-stroke: 1px #000000;  }
+
+.about p {
+  font-family: earthtracks;
+  font-weight: 900;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+  font-size: 16px;
+  z-index: 10;
+  padding-top: 28px;
+  line-height: 35px;
+  color: #000000 !important;
+  text-align: center;
+}
+
+#img {
+  height: 230px;
+  width: 350px;
+  margin-top: 100px;
+  border: 12px solid rgb(3, 3, 3);
+  border-radius: 1px;
+ }
+
+@media (max-width: 800px) {
+
+  #about {
+    margin-top: 50px;
+  }
+
+  #img {
+    height: 200px;
+    width: 300px;
+    margin-top: 10px;
+   }
+
+  .about h1 {
+    padding-left: 0px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  .about p {
+    padding: 20px;
+    line-height: 31px;
+    letter-spacing: 2px;
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .about h1 {
+    padding-left: 0px;
+    font-size: 30px;
+  }
+  .about p {
+    padding: 20px;
+    line-height: 31px;
+    letter-spacing: 2px;
+    font-size: 13px;
+  }
+  #img {
+    height: 170px;
+    width: 260px;
+    margin-top: 10px;
+    border: 10px solid rgb(10, 10, 10);
+   }
+  }
+
+@media (max-width: 530px) {
+  #img {
+    height: 160px;
+    width: 250px;
+    margin-top: 50px;
+   }
+}
+
+@media (max-width: 470px) {
+.about h1 {
+  font-size: 27px;
+}
+}
+
+ @media (max-width: 420px) {
+  #img {
+    height: 140px;
+    width: 220px;
+    margin-top: 10px;
+    border: 9px solid rgb(10, 10, 10);
+   }
+ }
+
+ @media (max-width: 270px) {
+  #img {
+    height: 140px;
+    width: 200px;
+    margin-top: 10px;
+   }
+ }
+
+
+/* ------------------- Roadmap ------------------- */
+
+.roadmap {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  background-image: url("/public/Asserts/Blood-roadmap.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.roadmap h1 {
+  text-align: center;
+  font-size: 35px;
+  color: #000000 !important;
+  -webkit-text-stroke: 1px #000000;    
+   font-family: Nipok;
+  padding-bottom: 30px;
+}
+
+.roadmap h2 {
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-family: Nipok;
+  font-size: 27px;
+  text-align: center;
+  padding: 10px;
+}
+
+.roadmap ul {
+  text-align: center;
+  padding: 0px;
+  margin-top: 30px;
+  border-bottom: 3px solid rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius: 40px;
+  margin: 30px;
+  padding-bottom: 15px;
+}
+
+.roadmap ul li {
+  text-align: center;
+  color: #000000;
+  font-family: earthtracks;
+  list-style-type: none;
+  line-height: 60px;
+  opacity: 0.9;
+  font-size: 20px;
+}
+
+
+@media (max-width: 800px) {
+  .roadmap h1 {
+    padding-bottom: 25px;
+  }
+  .roadmap h2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  .roadmap {
+margin-top: -70px;
+  }
+  .roadmap h1 {
+    padding-bottom: 25px;
+    font-size: 30px;
+  }
+  .roadmap h2 {
+    margin-top: 30px;     
+    font-size: 25px;
+  } 
+  .roadmap ul li {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 470px) {
+.roadmap h1 {
+  font-size: 27px;
+}
+.roadmap h2 {     
+  font-size: 22px;
+} 
+}
+
+@media (max-width: 300px) {
+  .roadmap ul {
+    border-radius: 30px;
+  }
+}
+
+
+/* ------------------- Footer ------------------- */
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer p {
+  font-family: earthtracks;
+  padding-top: 70px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.footer h6 {
+  color: rgb(0, 0, 0);
+  font-family: Nipok;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 9px;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+
+@media (max-width: 800px) {
+  .footer p {
+    font-size: 14px;
+  }
+
+  .footer h6 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 450px) {
+  .footer p {
+    margin-top: -60px;
+    font-size: 10px;
+  }
+
+  .footer h6 {
+    font-size: 11px;
+  }
+}

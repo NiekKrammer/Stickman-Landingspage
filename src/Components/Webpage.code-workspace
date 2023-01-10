@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "../../../Webpage"
+		},
+		{
+			"path": "../../../Starbucks"
+		},
+		{
+			"path": "../../../react-data-website-starter"
+		},
+		{
+			"path": "../../../HomerDoge"
+		},
+		{
+			"path": "../../../Iroh Inu"
+		},
+		{
+			"path": "../../../Abert HeijnInu"
+		},
+		{
+			"path": "../../../Flippy"
+		},
+		{
+			"path": "../../../js"
+		},
+		{
+			"path": "../../../community college"
+		},
+		{
+			"path": "../../../Teletubbies"
+		},
+		{
+			"path": "../../../Shin Chan"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Webpage"
+	}
+}

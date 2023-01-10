@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dfb991f5.css",
+    "main.js": "/static/js/main.bf2995af.js",
+    "static/media/Act_Of_Rejection.ttf": "/static/media/Act_Of_Rejection.74e300b0d849f17db55d.ttf",
+    "static/media/Blood-roadmap.png": "/static/media/Blood-roadmap.f9c62f6999bd129c8cba.png",
+    "index.html": "/index.html",
+    "main.dfb991f5.css.map": "/static/css/main.dfb991f5.css.map",
+    "main.bf2995af.js.map": "/static/js/main.bf2995af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfb991f5.css",
+    "static/js/main.bf2995af.js"
+  ]
+}
